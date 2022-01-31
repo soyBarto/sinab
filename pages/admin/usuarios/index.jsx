@@ -22,7 +22,7 @@ const index = () => {
 
                         <div className="shadow-md rounded-lg" bgcolor='#3b7e20'>
                             <form method='GET' action='/books' name='f'>
-                                <input type='hidden' name='bm' value='1' />
+                                <input type='hidden' name='bm' />
                                 <table className="rounded-lg" width='100%' border='15'>
                                     <tr>
                                         <td rowSpan='2'>
@@ -32,7 +32,7 @@ const index = () => {
                                             <div>
                                                 <table cellPadding='6' border='0' width='100%'>
                                                     <tr>
-                                                        <td nowrap bgcolor='#3b7e20'>
+                                                        <td bgcolor='#3b7e20'>
                                                             <font face='Tahoma' color='#000000' size='+1'>
                                                                 <b>
                                                                     <nobr>
@@ -41,7 +41,7 @@ const index = () => {
                                                                 </b>
                                                             </font>
                                                         </td>
-                                                        <td align='right' nowrap bgcolor='#3b7e20'>
+                                                        <td align='right' bgcolor='#3b7e20'>
                                                             <font face='Tahoma' color='#000000' size='-3'>
                                                                 <a href="https://bibliotecas.unal.edu.co/acerca-del-sistema-nacional-de-bibliotecas/el-sistema-nacional-de-bibliotecas#:~:text=El%20Sistema%20Nacional%20de%20Bibliotecas%2C%20SINAB%2C%20integra%20los%20recursos%20bibliográficos,bibliotecarios%20que%20requiere%20la%20Universidad.">
                                                                     Acerca de SINAB
@@ -71,7 +71,7 @@ const index = () => {
                                                                                 <table width="100%"   cellPadding="2">
                                                                                     <tbody>
                                                                                         <tr>                                                                                                                                                                                        <td>
-                                                                                            <input type="text" value="" name="as_q" id="as_q" size="25" dir="ltr" className="with-auto-dir-text text-align:left border border-black" />
+                                                                                            <input type="text" name="as_q" id="as_q" size="25" dir="ltr" className="with-auto-dir-text text-align:left border border-black" />
                                                                                             <script>
                                                                                                 _OC_autoDir('as_q');
                                                                                                 {/*<!--document.f.as_q.focus();// --> */}
@@ -98,7 +98,7 @@ const index = () => {
                                             <div>
                                                 <table   cellPadding='6' border='0' width='100%'>
                                                     <tr>
-                                                        <td nowrap bgcolor='#3b7e20'>
+                                                        <td bgcolor='#3b7e20'>
                                                             <font face='Tahoma' color='#000000' size='+1'>
                                                                 <b>
                                                                     <nobr>
@@ -107,7 +107,7 @@ const index = () => {
                                                                 </b>
                                                             </font>
                                                         </td>
-                                                        <td align='right' nowrap bgcolor='#3b7e20'>
+                                                        <td align='right' bgcolor='#3b7e20'>
                                                             <font face='Tahoma' color='#000000' size='-3'>
                                                                 <a href="https://bibliotecas.unal.edu.co/acerca-del-sistema-nacional-de-bibliotecas/el-sistema-nacional-de-bibliotecas#:~:text=El%20Sistema%20Nacional%20de%20Bibliotecas%2C%20SINAB%2C%20integra%20los%20recursos%20bibliográficos,bibliotecarios%20que%20requiere%20la%20Universidad.">
                                                                     Acerca de SINAB
@@ -143,7 +143,7 @@ const index = () => {
                                                                                                 </font>
                                                                                             </td>
                                                                                             <td>
-                                                                                                <input type="text" value="" name="as_q" id="as_q" size="25" dir="ltr" className="with-auto-dir-text text-align:left border border-black" />
+                                                                                                <input type="text" name="as_q" id="as_q" size="25" dir="ltr" className="with-auto-dir-text text-align:left border border-black" />
                                                                                                 <script>
                                                                                                     _OC_autoDir('as_q');
                                                                                                     {/*<!--document.f.as_q.focus();// --> */}
@@ -152,63 +152,63 @@ const index = () => {
                                                                                             <td valign="top" rowSpan="4">
                                                                                                 <font size="-1">
                                                                                                     <select name="num">
-                                                                                                        <option selected="" value="10">
+                                                                                                        <option selected="" >
                                                                                                             10 resultados
                                                                                                         </option>
-                                                                                                        <option value="20">
+                                                                                                        <option>
                                                                                                             20 resultados
                                                                                                         </option>
-                                                                                                        <option value="30">
+                                                                                                        <option>
                                                                                                             30 resultados
                                                                                                         </option>
-                                                                                                        <option value="50">
+                                                                                                        <option>
                                                                                                             50 resultados
                                                                                                         </option>
-                                                                                                        <option value="100">
+                                                                                                        <option>
                                                                                                             100 resultados
                                                                                                         </option>
                                                                                                     </select>
-                                                                                                    <input type="hidden" name="hl" value="es" />
+                                                                                                    <input type="hidden" name="hl" />
                                                                                                 </font>
                                                                                             </td>
                                                                                         </tr>
                                                                                         <tr>
-                                                                                            <td nowrap="">
+                                                                                            <td>
                                                                                                 <font size="-1">
                                                                                                     <label> con la <b>frase exacta</b>
                                                                                                     </label>
                                                                                                 </font>
                                                                                             </td>
                                                                                             <td>
-                                                                                                <input type="text" size="25" value="" name="as_epq" id="as_epq" dir="ltr" className="with-auto-dir-text text-align:left border border-black" />
+                                                                                                <input type="text" size="25" name="as_epq" id="as_epq" dir="ltr" className="with-auto-dir-text text-align:left border border-black" />
                                                                                             </td>
                                                                                             <script type="text/javascript">
                                                                                                 _OC_autoDir('as_epq');
                                                                                             </script>
                                                                                         </tr>
                                                                                         <tr>
-                                                                                            <td nowrap="">
+                                                                                            <td>
                                                                                                 <font size="-1">
                                                                                                     <label>con <b>alguna</b> de las palabras
                                                                                                     </label>
                                                                                                 </font>
                                                                                             </td>
                                                                                             <td>
-                                                                                                <input type="text" size="25" value="" name="as_oq" id="as_oq" dir="ltr" className="with-auto-dir-text text-align:left border border-black" />
+                                                                                                <input type="text" size="25" name="as_oq" id="as_oq" dir="ltr" className="with-auto-dir-text text-align:left border border-black" />
                                                                                             </td>
                                                                                             <script type="text/javascript">
                                                                                                 _OC_autoDir('as_oq');
                                                                                             </script>
                                                                                         </tr>
                                                                                         <tr>
-                                                                                            <td nowrap="">
+                                                                                            <td>
                                                                                                 <font size="-1">
                                                                                                     <label><b>sin</b> las palabras
                                                                                                     </label>
                                                                                                 </font>
                                                                                             </td>
                                                                                             <td>
-                                                                                                <input type="text" size="25" value="" name="as_eq" id="as_eq" dir="ltr" className="with-auto-dir-text text-align:left border border-black" />
+                                                                                                <input type="text" size="25" name="as_eq" id="as_eq" dir="ltr" className="with-auto-dir-text text-align:left border border-black" />
                                                                                             </td>
                                                                                             <script type="text/javascript">
                                                                                                 _OC_autoDir('as_eq');
@@ -223,16 +223,16 @@ const index = () => {
                                                                                 Buscar en:
                                                                             </td>
                                                                             <td colSpan="2">
-                                                                                <input id="rr1" name="as_brr" type="radio" value="0" />
+                                                                                <input id="rr1" name="as_brr" type="radio" />
                                                                                 <label>Todos los libros
                                                                                 </label>
-                                                                                <input id="rr4" name="as_brr" type="radio" value="3" />
+                                                                                <input id="rr4" name="as_brr" type="radio" />
                                                                                 <label>Vista completa y vista previa limitada
                                                                                 </label>
-                                                                                <input id="rr2" name="as_brr" type="radio" value="1" />
+                                                                                <input id="rr2" name="as_brr" type="radio" />
                                                                                 <label>Solo vista completa
                                                                                 </label>
-                                                                                <input id="rr6" name="as_brr" type="radio" value="5" />
+                                                                                <input id="rr6" name="as_brr" type="radio" />
                                                                                 <label>
                                                                                     Solo eBooks de disponibles en SINAB
                                                                                 </label>
@@ -243,19 +243,19 @@ const index = () => {
                                                                                 Contenido:
                                                                             </td>
                                                                             <td colSpan="2">
-                                                                                <input id="all" name="as_pt" type="radio" value="ALLTYPES" />
+                                                                                <input id="all" name="as_pt" type="radio" />
                                                                                 <label>
                                                                                     Todo el contenido
                                                                                 </label>
-                                                                                <input id="books" name="as_pt" type="radio" value="BOOKS" />
+                                                                                <input id="books" name="as_pt" type="radio" />
                                                                                 <label>
                                                                                     Libros
                                                                                 </label>
-                                                                                <input id="magazines" name="as_pt" type="radio" value="MAGAZINES" />
+                                                                                <input id="magazines" name="as_pt" type="radio" />
                                                                                 <label>
                                                                                     Revistas
                                                                                 </label>
-                                                                                <input id="newspapers" name="as_pt" type="radio" value="NEWSPAPERS_SANTORINI" />
+                                                                                <input id="newspapers" name="as_pt" type="radio" />
                                                                                 <label>
                                                                                     Periódicos
                                                                                 </label>
@@ -278,16 +278,16 @@ const index = () => {
                                                                             </td>
                                                                             <td>
                                                                                 <select name="lr" id="lr">
-                                                                                    <option value="">
+                                                                                    <option >
                                                                                         cualquier idioma
                                                                                     </option>
-                                                                                    <option value="lang_af">
+                                                                                    <option >
                                                                                         Afrikaans
                                                                                     </option>
-                                                                                    <option value="lang_ar">
+                                                                                    <option >
                                                                                         Arabic
                                                                                     </option>
-                                                                                    <option value="lang_hy">Armenian</option><option value="lang_be">Belarusian</option><option value="lang_bg">Bulgarian</option><option value="lang_ca">Catalan</option><option value="lang_zh-CN">Chinese&nbsp;(Simplified)</option><option value="lang_zh-TW">Chinese&nbsp;(Traditional)</option><option value="lang_hr">Croatian</option><option value="lang_cs">Czech</option><option value="lang_da">Danish</option><option value="lang_nl">Dutch</option><option value="lang_en">English</option><option value="lang_eo">Esperanto</option><option value="lang_et">Estonian</option><option value="lang_tl">Filipino</option><option value="lang_fi">Finnish</option><option value="lang_fr">French</option><option value="lang_de">German</option><option value="lang_el">Greek</option><option value="lang_iw">Hebrew</option><option value="lang_hi">Hindi</option><option value="lang_hu">Hungarian</option><option value="lang_is">Icelandic</option><option value="lang_id">Indonesian</option><option value="lang_it">Italian</option><option value="lang_ja">Japanese</option><option value="lang_ko">Korean</option><option value="lang_lv">Latvian</option><option value="lang_lt">Lithuanian</option><option value="lang_no">Norwegian</option><option value="lang_fa">Persian</option><option value="lang_pl">Polish</option><option value="lang_pt">Portuguese</option><option value="lang_ro">Romanian</option><option value="lang_ru">Russian</option><option value="lang_sr">Serbian</option><option value="lang_sk">Slovak</option><option value="lang_sl">Slovenian</option><option value="lang_es">Spanish</option><option value="lang_sw">Swahili</option><option value="lang_sv">Swedish</option><option value="lang_th">Thai</option><option value="lang_tr">Turkish</option><option value="lang_uk">Ukrainian</option><option value="lang_vi">Vietnamese</option>
+                                                                                    <option >Armenian</option><option >Belarusian</option><option >Bulgarian</option><option >Catalan</option><option >Chinese&nbsp;(Simplified)</option><option >Chinese&nbsp;(Traditional)</option><option >Croatian</option><option >Czech</option><option >Danish</option><option >Dutch</option><option >English</option><option >Esperanto</option><option >Estonian</option><option >Filipino</option><option >Finnish</option><option >French</option><option >German</option><option >Greek</option><option >Hebrew</option><option >Hindi</option><option>Hungarian</option><option>Icelandic</option><option >Indonesian</option><option >Italian</option><option >Japanese</option><option >Korean</option><option >Latvian</option><option >Lithuanian</option><option >Norwegian</option><option >Persian</option><option >Polish</option><option >Vietnamese</option>
                                                                                 </select>
                                                                             </td>
                                                                         </tr>
@@ -307,7 +307,7 @@ const index = () => {
                                                                                 </font>
                                                                             </td>
                                                                             <td>
-                                                                                <input type="text" size="25" name="as_vt" id="as_vt" value="" dir="ltr" className="with-auto-dir-text text-align: left border border-black" />
+                                                                                <input type="text" size="25" name="as_vt" id="as_vt" dir="ltr" className="with-auto-dir-text text-align: left border border-black" />
                                                                                 <script type="text/javascript">
                                                                                     _OC_autoDir('as_vt');
                                                                                 </script>
@@ -335,7 +335,7 @@ const index = () => {
                                                                                 </font>
                                                                             </td>
                                                                             <td>
-                                                                                <input type="text" size="25" name="as_auth" id="as_auth" value="" dir="ltr" className="border border-black with-auto-dir-text text-align:left" />
+                                                                                <input type="text" size="25" name="as_auth" id="as_auth" dir="ltr" className="border border-black with-auto-dir-text text-align:left" />
                                                                                 <script type="text/javascript">
                                                                                     _OC_autoDir('as_auth');
                                                                                 </script>
@@ -363,7 +363,7 @@ const index = () => {
                                                                                 </font>
                                                                             </td>
                                                                             <td>
-                                                                                <input type="text" size="25" name="as_pub" id="as_pub" value="" dir="ltr" className="border border-black with-auto-dir-text text-align:left" />
+                                                                                <input type="text" size="25" name="as_pub" id="as_pub" dir="ltr" className="border border-black with-auto-dir-text text-align:left" />
                                                                                 <script type="text/javascript">
                                                                                     _OC_autoDir('as_pub');
                                                                                 </script>
@@ -384,12 +384,12 @@ const index = () => {
                                                                                 </font>
                                                                             </td>
                                                                             <td>
-                                                                                <input id="qc_is" name="as_drrb_is" type="radio" value="q" />
+                                                                                <input id="qc_is" name="as_drrb_is" type="radio" />
                                                                                 <font size="-1">
                                                                                     Mostrar contenido publicado en cualquier fecha
                                                                                 </font>
                                                                                 <br />
-                                                                                <input id="bc_is" name="as_drrb_is" type="radio" value="b" />
+                                                                                <input id="bc_is" name="as_drrb_is" type="radio" />
                                                                                 <font size="-1">
                                                                                     Mostrar contenido publicado entre
                                                                                 </font>
@@ -398,73 +398,73 @@ const index = () => {
                                                                                 <br />
                                                                                 <font size="-1">
                                                                                     <select name="as_minm_is" >
-                                                                                        <option value="0">
+                                                                                        <option>
                                                                                         </option>
-                                                                                        <option value="1">
+                                                                                        <option>
                                                                                             Ene
                                                                                         </option>
-                                                                                        <option value="2">
+                                                                                        <option>
                                                                                             Feb
                                                                                         </option>
-                                                                                        <option value="3">
+                                                                                        <option>
                                                                                             Mar
                                                                                         </option>
-                                                                                        <option value="4">
+                                                                                        <option>
                                                                                             Abr
-                                                                                        </option><option value="5">
+                                                                                        </option><option>
                                                                                             May
                                                                                         </option>
-                                                                                        <option value="6">
+                                                                                        <option>
                                                                                             Jun
-                                                                                        </option><option value="7">
+                                                                                        </option><option>
                                                                                             Jul
-                                                                                        </option><option value="8">
+                                                                                        </option><option>
                                                                                             Ago
-                                                                                        </option><option value="9">
+                                                                                        </option><option>
                                                                                             Sep
-                                                                                        </option><option value="10">
+                                                                                        </option><option>
                                                                                             Oct
                                                                                         </option>
-                                                                                        <option value="11">
+                                                                                        <option>
                                                                                             Nov
                                                                                         </option>
-                                                                                        <option value="12">
+                                                                                        <option>
                                                                                             Dic
                                                                                         </option>
                                                                                     </select>
                                                                                     <input size="4" type="text" name="as_miny_is" />
                                                                                     <select name="as_maxm_is" >
-                                                                                        <option value="0">
+                                                                                        <option>
                                                                                         </option>
-                                                                                        <option value="1">
+                                                                                        <option>
                                                                                             Ene
                                                                                         </option>
-                                                                                        <option value="2">
+                                                                                        <option>
                                                                                             Feb
                                                                                         </option>
-                                                                                        <option value="3">
+                                                                                        <option>
                                                                                             Mar
                                                                                         </option>
-                                                                                        <option value="4">
+                                                                                        <option>
                                                                                             Abr
                                                                                         </option>
-                                                                                        <option value="5">
+                                                                                        <option>
                                                                                             May
                                                                                         </option>
-                                                                                        <option value="6">
+                                                                                        <option>
                                                                                             Jun
                                                                                         </option>
-                                                                                        <option value="7">
+                                                                                        <option>
                                                                                             Jul
-                                                                                        </option><option value="8">
+                                                                                        </option><option>
                                                                                             Ago
-                                                                                        </option><option value="9">
+                                                                                        </option><option>
                                                                                             Sep
-                                                                                        </option><option value="10">
+                                                                                        </option><option>
                                                                                             Oct
-                                                                                        </option><option value="11">
+                                                                                        </option><option>
                                                                                             Nov
-                                                                                        </option><option value="12">
+                                                                                        </option><option>
                                                                                             Dic
                                                                                         </option>
                                                                                     </select>
