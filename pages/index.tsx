@@ -1,18 +1,16 @@
-import React from 'react';
 import type { NextPage } from 'next';
+import React from 'react';
 import Link from 'next/link';
 
 const Home: NextPage = () => {
   return (
     <div>
       <section id="login">
+        <head>
+          <title>SNB01 - Registro</title>
+        </head>
+
         <body>
-          <div className="flex p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800" role="alert">
-            <svg className="inline flex-shrink-0 mr-3 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"></path></svg>
-            <div>
-              <span className="font-medium">¡ATENCIÓN!</span> La contraseña que deberá digitar es la correspondiente al correo electrónico asignado por la Universidad.
-            </div>
-          </div>
           <div className="fondo shadow-md rounded-lg px-8 pt-7 pb-8 mb-4 flex flex-col">
             <a className="tituloLogin mb-5" href="">
               <div>
@@ -45,16 +43,20 @@ const Home: NextPage = () => {
               </div>
             </div>
             <div className="grid grid-cols-4 gap-4 py-8">
-              <button className="campo-button bg-transparent hover:bg-white text-white hover:text-blue-900 border-white hover:border-transparent">
-                <svg className="fill-current w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
-                <span>Ingresar</span>
-              </button>
-              <button className="campo-button bg-transparent hover:bg-white text-white hover:text-blue-900 border-white hover:border-transparent">
-                <svg className="fill-current h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
-                <span>Invitado</span>
-              </button>
+              <Link href="">
+                <button className="campo-button bg-transparent hover:bg-white text-white hover:text-blue-900 border-white hover:border-transparent">
+                  <svg className="fill-current w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>
+                  <span>Ingresar</span>
+                </button>
+              </Link>
+              <Link href="/admin/usuarios">
+                <button className="campo-button bg-transparent hover:bg-white text-white hover:text-blue-900 border-white hover:border-transparent">
+                  <svg className="fill-current h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                  </svg>
+                  <span>Invitado</span>
+                </button>
+              </Link>
             </div>
           </div>
         </body>

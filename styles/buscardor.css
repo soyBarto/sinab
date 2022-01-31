@@ -1,0 +1,2 @@
+#buscadorBibliotecas .tituloSitio::after {content: "Sede Medellín"}
+#buscadorBibliotecas .imagenSede {background: url("../public/biblioteca_dentro.jpg"); background-position: 0 0; background-size: cover;}
