@@ -4,17 +4,16 @@ import Link from 'next/link';
 const index = () => {
     return (
         <div>
-            <section id="login">
+            <section bgcolor='#203b7e'>
                 <head>
-                    <title>SNB01 - Registro</title>
+                    <title>SINAB</title>
                 </head>
 
-                <body class="padding:3px 8px">
+                <body bgcolor='#203b7e' class="padding:3px 8px">
                     <div className="fondo shadow-md rounded-lg px-8 pt-7 pb-8 mb-4 flex flex-col">
                         <a className="tituloLogin mb-5" href="">
                             <div>
-                                <p className="titulo text-right py-3">Sistema nacional</p>
-                                <p className="titulo text-right">de bibliotecas</p>
+                                <p className="titulo text-right py-3">Sistema nacional de bibliotecas</p>
                             </div>
                             <img title="Bibliotecas Universidad Nacional de Colombia" alt="Sistema Nacional de Bibliotecas Universidad Nacional de Colombia" src="https://bibliotecas.unal.edu.co/typo3conf/ext/bibliotecas_unal/Resources/Public/Bibliotecas/images/iconos/unNegativo.png" width="100" height="100" />
                         </a>
@@ -76,7 +75,7 @@ const index = () => {
                                                                                 <table width="100%" cellpadding="2" cellspacing="0">
                                                                                     <tbody>
                                                                                         <tr>                                                                                                                                                                                        <td>
-                                                                                            <input type="text" value="" name="as_q" id="as_q" size="25" dir="ltr" class="with-auto-dir-text text-align: left" />
+                                                                                            <input type="text" value="" name="as_q" id="as_q" size="25" dir="ltr" class="with-auto-dir-text text-align:left border border-black" />
                                                                                             <script>
                                                                                                 _OC_autoDir('as_q');
                                                                                                 {/*<!--document.f.as_q.focus();// --> */}
@@ -150,7 +149,7 @@ const index = () => {
                                                                                                 </font>
                                                                                             </td>
                                                                                             <td>
-                                                                                                <input type="text" value="" name="as_q" id="as_q" size="25" dir="ltr" class="with-auto-dir-text text-align: left" />
+                                                                                                <input type="text" value="" name="as_q" id="as_q" size="25" dir="ltr" class="with-auto-dir-text text-align:left border border-black" />
                                                                                                 <script>
                                                                                                     _OC_autoDir('as_q');
                                                                                                     {/*<!--document.f.as_q.focus();// --> */}
@@ -187,7 +186,7 @@ const index = () => {
                                                                                                 </font>
                                                                                             </td>
                                                                                             <td>
-                                                                                                <input type="text" size="25" value="" name="as_epq" id="as_epq" dir="ltr" className="with-auto-dir-text text-align: left" />
+                                                                                                <input type="text" size="25" value="" name="as_epq" id="as_epq" dir="ltr" className="with-auto-dir-text text-align:left border border-black" />
                                                                                             </td>
                                                                                             <script type="text/javascript">
                                                                                                 _OC_autoDir('as_epq');
@@ -201,7 +200,7 @@ const index = () => {
                                                                                                 </font>
                                                                                             </td>
                                                                                             <td>
-                                                                                                <input type="text" size="25" value="" name="as_oq" id="as_oq" dir="ltr" class="with-auto-dir-text text-align: left" />
+                                                                                                <input type="text" size="25" value="" name="as_oq" id="as_oq" dir="ltr" class="with-auto-dir-text text-align:left border border-black" />
                                                                                             </td>
                                                                                             <script type="text/javascript">
                                                                                                 _OC_autoDir('as_oq');
@@ -215,7 +214,7 @@ const index = () => {
                                                                                                 </font>
                                                                                             </td>
                                                                                             <td>
-                                                                                                <input type="text" size="25" value="" name="as_eq" id="as_eq" dir="ltr" class="with-auto-dir-text text-align: left" />
+                                                                                                <input type="text" size="25" value="" name="as_eq" id="as_eq" dir="ltr" class="with-auto-dir-text text-align:left border border-black" />
                                                                                             </td>
                                                                                             <script type="text/javascript">
                                                                                                 _OC_autoDir('as_eq');
@@ -328,7 +327,7 @@ const index = () => {
                                                                                 </font>
                                                                             </td>
                                                                             <td>
-                                                                                <input type="text" size="25" name="as_vt" id="as_vt" value="" dir="ltr" class="with-auto-dir-text text-align: left;" />
+                                                                                <input type="text" size="25" name="as_vt" id="as_vt" value="" dir="ltr" class="with-auto-dir-text text-align: left border border-black" />
                                                                                 <script type="text/javascript">
                                                                                     _OC_autoDir('as_vt');
                                                                                 </script>
@@ -356,7 +355,7 @@ const index = () => {
                                                                                 </font>
                                                                             </td>
                                                                             <td>
-                                                                                <input type="text" size="25" name="as_auth" id="as_auth" value="" dir="ltr" class="with-auto-dir-text text-align: left" />
+                                                                                <input type="text" size="25" name="as_auth" id="as_auth" value="" dir="ltr" class="border border-black with-auto-dir-text text-align:left" />
                                                                                 <script type="text/javascript">
                                                                                     _OC_autoDir('as_auth');
                                                                                 </script>
@@ -384,7 +383,7 @@ const index = () => {
                                                                                 </font>
                                                                             </td>
                                                                             <td>
-                                                                                <input type="text" size="25" name="as_pub" id="as_pub" value="" dir="ltr" class="with-auto-dir-text text-align: left" />
+                                                                                <input type="text" size="25" name="as_pub" id="as_pub" value="" dir="ltr" class="border border-black with-auto-dir-text text-align:left" />
                                                                                 <script type="text/javascript">
                                                                                     _OC_autoDir('as_pub');
                                                                                 </script>
