@@ -25,9 +25,6 @@ const index = () => {
                                 <input type='hidden' name='bm' value='1' />
                                 <table className="rounded-lg" width='100%' border='15'>
                                     <tr>
-                                        <td>
-                                            &nbsp;
-                                        </td>
                                         <td rowspan='2'>
                                             <div className="border-bottom:solid 1px #3366cc">
                                             </div>
@@ -37,7 +34,6 @@ const index = () => {
                                                     <tr>
                                                         <td nowrap bgcolor='#3b7e20'>
                                                             <font face='Tahoma' color='#000000' size='+1'>
-                                                                &nbsp;
                                                                 <b>
                                                                     <nobr>
                                                                         Búsqueda de libros
@@ -50,7 +46,6 @@ const index = () => {
                                                                 <a href="https://bibliotecas.unal.edu.co/acerca-del-sistema-nacional-de-bibliotecas/el-sistema-nacional-de-bibliotecas#:~:text=El%20Sistema%20Nacional%20de%20Bibliotecas%2C%20SINAB%2C%20integra%20los%20recursos%20bibliográficos,bibliotecarios%20que%20requiere%20la%20Universidad.">
                                                                     Acerca de SINAB
                                                                 </a>
-                                                                &nbsp;
                                                             </font>
                                                         </td>
                                                     </tr>
@@ -105,7 +100,6 @@ const index = () => {
                                                     <tr>
                                                         <td nowrap bgcolor='#3b7e20'>
                                                             <font face='Tahoma' color='#000000' size='+1'>
-                                                                &nbsp;
                                                                 <b>
                                                                     <nobr>
                                                                         Búsqueda avanzada de libros
@@ -118,7 +112,6 @@ const index = () => {
                                                                 <a href="https://bibliotecas.unal.edu.co/acerca-del-sistema-nacional-de-bibliotecas/el-sistema-nacional-de-bibliotecas#:~:text=El%20Sistema%20Nacional%20de%20Bibliotecas%2C%20SINAB%2C%20integra%20los%20recursos%20bibliográficos,bibliotecarios%20que%20requiere%20la%20Universidad.">
                                                                     Acerca de SINAB
                                                                 </a>
-                                                                &nbsp;
                                                             </font>
                                                         </td>
                                                     </tr>
@@ -233,23 +226,16 @@ const index = () => {
                                                                                 <input id="rr1" name="as_brr" type="radio" value="0" />
                                                                                 <label>Todos los libros
                                                                                 </label>
-                                                                                &nbsp;&nbsp;
                                                                                 <input id="rr4" name="as_brr" type="radio" value="3" />
                                                                                 <label>Vista completa y vista previa limitada
                                                                                 </label>
-                                                                                &nbsp;
-                                                                                &nbsp;
                                                                                 <input id="rr2" name="as_brr" type="radio" value="1" />
                                                                                 <label>Solo vista completa
                                                                                 </label>
-                                                                                &nbsp;
-                                                                                &nbsp;
                                                                                 <input id="rr6" name="as_brr" type="radio" value="5" />
                                                                                 <label>
                                                                                     Solo eBooks de disponibles en SINAB
                                                                                 </label>
-                                                                                &nbsp;
-                                                                                &nbsp;
                                                                             </td>
                                                                         </tr>
                                                                         <tr className="text-gray-700 font-size:83%">
@@ -261,26 +247,18 @@ const index = () => {
                                                                                 <label>
                                                                                     Todo el contenido
                                                                                 </label>
-                                                                                &nbsp;
-                                                                                &nbsp;
                                                                                 <input id="books" name="as_pt" type="radio" value="BOOKS" />
                                                                                 <label>
                                                                                     Libros
                                                                                 </label>
-                                                                                &nbsp;
-                                                                                &nbsp;
                                                                                 <input id="magazines" name="as_pt" type="radio" value="MAGAZINES" />
                                                                                 <label>
                                                                                     Revistas
                                                                                 </label>
-                                                                                &nbsp;
-                                                                                &nbsp;
                                                                                 <input id="newspapers" name="as_pt" type="radio" value="NEWSPAPERS_SANTORINI" />
                                                                                 <label>
                                                                                     Periódicos
                                                                                 </label>
-                                                                                &nbsp;
-                                                                                &nbsp;
                                                                             </td>
                                                                         </tr>
                                                                         <tr bgcolor="#ffffff">
@@ -417,7 +395,6 @@ const index = () => {
                                                                                 </font>
                                                                             </td>
                                                                             <td>
-                                                                                &nbsp;
                                                                                 <br />
                                                                                 <font size="-1">
                                                                                     <select name="as_minm_is" >
