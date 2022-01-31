@@ -1,15 +1,16 @@
 import React from 'react';
 import Link from 'next/link';
+import Head from 'next/head';
 
 const index = () => {
     return (
         <div>
             <section bgcolor='#203b7e'>
-                <head>
+                <Head>
                     <title>SINAB</title>
-                </head>
+                </Head>
 
-                <body bgcolor='#203b7e' class="padding:3px 8px">
+                <body bgcolor='#203b7e' className="padding:3px 8px">
                     <div className="fondo shadow-md rounded-lg px-8 pt-7 pb-8 mb-4 flex flex-col">
                         <a className="tituloLogin mb-5" href="">
                             <div>
@@ -22,7 +23,7 @@ const index = () => {
                         <div className="shadow-md rounded-lg" bgcolor='#3b7e20'>
                             <form method='GET' action='/books' name='f'>
                                 <input type='hidden' name='bm' value='1' />
-                                <table class="rounded-lg" width='100%' border='15' cellpadding='0' cellspacing='2'>
+                                <table className="rounded-lg" width='100%' border='15' cellpadding='0' cellspacing='2'>
                                     <tr>
                                         <td>
                                             &nbsp;
@@ -56,7 +57,7 @@ const index = () => {
                                                 </table>
 
 
-                                                <table bgcolor="#cbdced" class="text-gray-700" cellspacing="0" cellpadding="3" width="100%">
+                                                <table bgcolor="#cbdced" className="text-gray-700" cellspacing="0" cellpadding="3" width="100%">
                                                     <tbody>
                                                         <tr bgcolor="#cbdced">
                                                             <td>
@@ -75,7 +76,7 @@ const index = () => {
                                                                                 <table width="100%" cellpadding="2" cellspacing="0">
                                                                                     <tbody>
                                                                                         <tr>                                                                                                                                                                                        <td>
-                                                                                            <input type="text" value="" name="as_q" id="as_q" size="25" dir="ltr" class="with-auto-dir-text text-align:left border border-black" />
+                                                                                            <input type="text" value="" name="as_q" id="as_q" size="25" dir="ltr" className="with-auto-dir-text text-align:left border border-black" />
                                                                                             <script>
                                                                                                 _OC_autoDir('as_q');
                                                                                                 {/*<!--document.f.as_q.focus();// --> */}
@@ -124,7 +125,7 @@ const index = () => {
                                                 </table>
 
 
-                                                <table bgcolor="#cbdced" class="text-gray-700" cellspacing="0" cellpadding="3" width="100%">
+                                                <table bgcolor="#cbdced" className="text-gray-700" cellspacing="0" cellpadding="3" width="100%">
                                                     <tbody>
                                                         <tr bgcolor="#cbdced">
                                                             <td>
@@ -149,7 +150,7 @@ const index = () => {
                                                                                                 </font>
                                                                                             </td>
                                                                                             <td>
-                                                                                                <input type="text" value="" name="as_q" id="as_q" size="25" dir="ltr" class="with-auto-dir-text text-align:left border border-black" />
+                                                                                                <input type="text" value="" name="as_q" id="as_q" size="25" dir="ltr" className="with-auto-dir-text text-align:left border border-black" />
                                                                                                 <script>
                                                                                                     _OC_autoDir('as_q');
                                                                                                     {/*<!--document.f.as_q.focus();// --> */}
@@ -200,7 +201,7 @@ const index = () => {
                                                                                                 </font>
                                                                                             </td>
                                                                                             <td>
-                                                                                                <input type="text" size="25" value="" name="as_oq" id="as_oq" dir="ltr" class="with-auto-dir-text text-align:left border border-black" />
+                                                                                                <input type="text" size="25" value="" name="as_oq" id="as_oq" dir="ltr" className="with-auto-dir-text text-align:left border border-black" />
                                                                                             </td>
                                                                                             <script type="text/javascript">
                                                                                                 _OC_autoDir('as_oq');
@@ -214,7 +215,7 @@ const index = () => {
                                                                                                 </font>
                                                                                             </td>
                                                                                             <td>
-                                                                                                <input type="text" size="25" value="" name="as_eq" id="as_eq" dir="ltr" class="with-auto-dir-text text-align:left border border-black" />
+                                                                                                <input type="text" size="25" value="" name="as_eq" id="as_eq" dir="ltr" className="with-auto-dir-text text-align:left border border-black" />
                                                                                             </td>
                                                                                             <script type="text/javascript">
                                                                                                 _OC_autoDir('as_eq');
@@ -224,8 +225,8 @@ const index = () => {
                                                                                 </table>
                                                                             </td>
                                                                         </tr>
-                                                                        <tr class="background-color:#fff;font-size:83%">
-                                                                            <td class="font-weight:bold text-gray-700">
+                                                                        <tr className="background-color:#fff;font-size:83%">
+                                                                            <td className="font-weight:bold text-gray-700">
                                                                                 Buscar en:
                                                                             </td>
                                                                             <td colspan="2">
@@ -251,8 +252,8 @@ const index = () => {
                                                                                 &nbsp;
                                                                             </td>
                                                                         </tr>
-                                                                        <tr class="text-gray-700 font-size:83%">
-                                                                            <td class="font-weight:bold">
+                                                                        <tr className="text-gray-700 font-size:83%">
+                                                                            <td className="font-weight:bold">
                                                                                 Contenido:
                                                                             </td>
                                                                             <td colspan="2">
@@ -328,13 +329,13 @@ const index = () => {
                                                                                 </font>
                                                                             </td>
                                                                             <td>
-                                                                                <input type="text" size="25" name="as_vt" id="as_vt" value="" dir="ltr" class="with-auto-dir-text text-align: left border border-black" />
+                                                                                <input type="text" size="25" name="as_vt" id="as_vt" value="" dir="ltr" className="with-auto-dir-text text-align: left border border-black" />
                                                                                 <script type="text/javascript">
                                                                                     _OC_autoDir('as_vt');
                                                                                 </script>
                                                                                 <br />
                                                                                 <font size="-1">
-                                                                                    <span class="eg">
+                                                                                    <span className="eg">
                                                                                         por ejemplo, Books and Culture
                                                                                     </span>
                                                                                 </font>
@@ -356,13 +357,13 @@ const index = () => {
                                                                                 </font>
                                                                             </td>
                                                                             <td>
-                                                                                <input type="text" size="25" name="as_auth" id="as_auth" value="" dir="ltr" class="border border-black with-auto-dir-text text-align:left" />
+                                                                                <input type="text" size="25" name="as_auth" id="as_auth" value="" dir="ltr" className="border border-black with-auto-dir-text text-align:left" />
                                                                                 <script type="text/javascript">
                                                                                     _OC_autoDir('as_auth');
                                                                                 </script>
                                                                                 <br />
                                                                                 <font size="-1">
-                                                                                    <span class="eg">
+                                                                                    <span className="eg">
                                                                                         por ejemplo, Hamilton Mabie o "Hamilton Wright Mabie"
                                                                                     </span>
                                                                                 </font>
@@ -384,13 +385,13 @@ const index = () => {
                                                                                 </font>
                                                                             </td>
                                                                             <td>
-                                                                                <input type="text" size="25" name="as_pub" id="as_pub" value="" dir="ltr" class="border border-black with-auto-dir-text text-align:left" />
+                                                                                <input type="text" size="25" name="as_pub" id="as_pub" value="" dir="ltr" className="border border-black with-auto-dir-text text-align:left" />
                                                                                 <script type="text/javascript">
                                                                                     _OC_autoDir('as_pub');
                                                                                 </script>
                                                                                 <br />
                                                                                 <font size="-1">
-                                                                                    <span class="eg">
+                                                                                    <span className="eg">
                                                                                         por ejemplo, O'Reilly
                                                                                     </span>
                                                                                 </font>
@@ -494,7 +495,7 @@ const index = () => {
                                                                                 </font>
                                                                                 <br />
                                                                                 <font size="-1">
-                                                                                    <span class="eg">
+                                                                                    <span className="eg">
                                                                                         Por ejemplo, 1999 y 2000 o ene. 1999 y dic. 2000
                                                                                     </span>
                                                                                 </font>

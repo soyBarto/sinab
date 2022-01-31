@@ -1,14 +1,15 @@
 import type { NextPage } from 'next';
 import React from 'react';
 import Link from 'next/link';
+import Head from 'next/head';
 
 const Home: NextPage = () => {
   return (
     <div>
       <section id="login">
-        <head>
+        <Head>
           <title>SNB01 - Registro</title>
-        </head>
+        </Head>
 
         <body>
           <div className="fondo shadow-md rounded-lg px-8 pt-7 pb-8 mb-4 flex flex-col">
