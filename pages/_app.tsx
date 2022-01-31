@@ -1,6 +1,9 @@
 import '../styles/globals.css';
 import '../styles/buscardor.css'
 import type { AppProps } from 'next/app';
+import React from 'react';
+import Link from 'next/link';
+import Head from 'next/head';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
