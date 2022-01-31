@@ -145,7 +145,7 @@ const index = () => {
                                                                                         <tr>
                                                                                             <td>
                                                                                                 <font size="-1">
-                                                                                                    <label for="as_q"> con <b>todas</b> las palabras </label>
+                                                                                                    <label> con <b>todas</b> las palabras </label>
                                                                                                 </font>
                                                                                             </td>
                                                                                             <td>
@@ -181,7 +181,7 @@ const index = () => {
                                                                                         <tr>
                                                                                             <td nowrap="">
                                                                                                 <font size="-1">
-                                                                                                    <label for="as_epq"> con la <b>frase exacta</b>
+                                                                                                    <label> con la <b>frase exacta</b>
                                                                                                     </label>
                                                                                                 </font>
                                                                                             </td>
@@ -195,7 +195,7 @@ const index = () => {
                                                                                         <tr>
                                                                                             <td nowrap="">
                                                                                                 <font size="-1">
-                                                                                                    <label for="as_oq">con <b>alguna</b> de las palabras
+                                                                                                    <label>con <b>alguna</b> de las palabras
                                                                                                     </label>
                                                                                                 </font>
                                                                                             </td>
@@ -209,7 +209,7 @@ const index = () => {
                                                                                         <tr>
                                                                                             <td nowrap="">
                                                                                                 <font size="-1">
-                                                                                                    <label for="as_eq"><b>sin</b> las palabras
+                                                                                                    <label><b>sin</b> las palabras
                                                                                                     </label>
                                                                                                 </font>
                                                                                             </td>
@@ -230,21 +230,21 @@ const index = () => {
                                                                             </td>
                                                                             <td colspan="2">
                                                                                 <input id="rr1" name="as_brr" type="radio" value="0" />
-                                                                                <label for="rr1">Todos los libros
+                                                                                <label>Todos los libros
                                                                                 </label>
                                                                                 &nbsp;&nbsp;
                                                                                 <input id="rr4" name="as_brr" type="radio" value="3" />
-                                                                                <label for="rr4">Vista completa y vista previa limitada
+                                                                                <label>Vista completa y vista previa limitada
                                                                                 </label>
                                                                                 &nbsp;
                                                                                 &nbsp;
                                                                                 <input id="rr2" name="as_brr" type="radio" value="1" />
-                                                                                <label for="rr2">Solo vista completa
+                                                                                <label>Solo vista completa
                                                                                 </label>
                                                                                 &nbsp;
                                                                                 &nbsp;
                                                                                 <input id="rr6" name="as_brr" type="radio" value="5" />
-                                                                                <label for="rr6">
+                                                                                <label>
                                                                                     Solo eBooks de disponibles en SINAB
                                                                                 </label>
                                                                                 &nbsp;
@@ -257,24 +257,25 @@ const index = () => {
                                                                             </td>
                                                                             <td colspan="2">
                                                                                 <input id="all" name="as_pt" type="radio" value="ALLTYPES" />
-                                                                                <label for="all">
+                                                                                <label>
                                                                                     Todo el contenido
                                                                                 </label>
                                                                                 &nbsp;
                                                                                 &nbsp;
                                                                                 <input id="books" name="as_pt" type="radio" value="BOOKS" />
-                                                                                <label for="books">
+                                                                                <label>
                                                                                     Libros
                                                                                 </label>
                                                                                 &nbsp;
                                                                                 &nbsp;
                                                                                 <input id="magazines" name="as_pt" type="radio" value="MAGAZINES" />
-                                                                                <label for="magazines">Revistas
+                                                                                <label>
+                                                                                    Revistas
                                                                                 </label>
                                                                                 &nbsp;
                                                                                 &nbsp;
                                                                                 <input id="newspapers" name="as_pt" type="radio" value="NEWSPAPERS_SANTORINI" />
-                                                                                <label for="newspapers">
+                                                                                <label>
                                                                                     Periódicos
                                                                                 </label>
                                                                                 &nbsp;
@@ -291,7 +292,7 @@ const index = () => {
                                                                             </td>
                                                                             <td width="40%">
                                                                                 <font size="-1">
-                                                                                    <label for="lr">
+                                                                                    <label>
                                                                                         Mostrar páginas escritas en
                                                                                     </label>
                                                                                 </font>
@@ -321,7 +322,7 @@ const index = () => {
                                                                             </td>
                                                                             <td width="40%">
                                                                                 <font size="-1">
-                                                                                    <label for="as_vt">
+                                                                                    <label>
                                                                                         Mostrar los libros con el título
                                                                                     </label>
                                                                                 </font>
@@ -349,7 +350,7 @@ const index = () => {
                                                                             </td>
                                                                             <td width="40%">
                                                                                 <font size="-1">
-                                                                                    <label for="as_auth">
+                                                                                    <label>
                                                                                         Mostrar los libros escritos por
                                                                                     </label>
                                                                                 </font>
@@ -377,7 +378,7 @@ const index = () => {
                                                                             </td>
                                                                             <td width="40%">
                                                                                 <font size="-1">
-                                                                                    <label for="as_pub">
+                                                                                    <label>
                                                                                         Mostrar los libros publicados por
                                                                                     </label>
                                                                                 </font>

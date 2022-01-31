@@ -20,13 +20,13 @@ const Home: NextPage = () => {
               <img title="Bibliotecas Universidad Nacional de Colombia" alt="Sistema Nacional de Bibliotecas Universidad Nacional de Colombia" src="https://bibliotecas.unal.edu.co/typo3conf/ext/bibliotecas_unal/Resources/Public/Bibliotecas/images/iconos/unNegativo.png" width="100" height="100" />
             </a>
             <div className="mb-4">
-              <label className="block text-white text-grey-darker text-sm font-bold mb-2" for="username">
+              <label className="block text-white text-grey-darker text-sm font-bold mb-2">
                 Número de documento de identidad
               </label>
               <input className="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker" id="username" type="text" placeholder="Documento de identidad" />
             </div>
             <div className="mb-1">
-              <label className="block text-white text-grey-darker text-sm font-bold mb-2" for="password">
+              <label className="block text-white text-grey-darker text-sm font-bold mb-2">
                 Contraseña del correo de la UN
               </label>
               <input className="shadow appearance-none border border-red rounded w-full py-2 px-3 text-grey-darker mb-3" id="password" type="password" placeholder="***********" />
@@ -52,7 +52,7 @@ const Home: NextPage = () => {
               <Link href="/admin/usuarios">
                 <button className="campo-button bg-transparent hover:bg-white text-white hover:text-blue-900 border-white hover:border-transparent">
                   <svg className="fill-current h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                    <path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                   </svg>
                   <span>Invitado</span>
                 </button>
