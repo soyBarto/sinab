@@ -23,7 +23,7 @@ const index = () => {
                         <div className="shadow-md rounded-lg" bgcolor='#3b7e20'>
                             <form method='GET' action='/books' name='f'>
                                 <input type='hidden' name='bm' value='1' />
-                                <table className="rounded-lg" width='100%' border='15' cellpadding='0' cellspacing='2'>
+                                <table className="rounded-lg" width='100%' border='15'>
                                     <tr>
                                         <td>
                                             &nbsp;
@@ -33,7 +33,7 @@ const index = () => {
                                             </div>
 
                                             <div>
-                                                <table cellspacing='0' cellpadding='6' border='0' width='100%'>
+                                                <table cellpadding='6' border='0' width='100%'>
                                                     <tr>
                                                         <td nowrap bgcolor='#3b7e20'>
                                                             <font face='Tahoma' color='#000000' size='+1'>
@@ -57,11 +57,11 @@ const index = () => {
                                                 </table>
 
 
-                                                <table bgcolor="#cbdced" className="text-gray-700" cellspacing="0" cellpadding="3" width="100%">
+                                                <table bgcolor="#cbdced" className="text-gray-700" cellpadding="3" width="100%">
                                                     <tbody>
                                                         <tr bgcolor="#cbdced">
                                                             <td>
-                                                                <table width="100%" cellspacing="0" cellpadding="5" border="10">
+                                                                <table width="100%" cellpadding="5" border="10">
                                                                     <tbody>
                                                                         <tr bgcolor="#cbdced">
                                                                             <td valign="top" width="15%">
@@ -73,7 +73,7 @@ const index = () => {
                                                                                 </font>
                                                                             </td>
                                                                             <td colspan="2">
-                                                                                <table width="100%" cellpadding="2" cellspacing="0">
+                                                                                <table width="100%" cellpadding="2">
                                                                                     <tbody>
                                                                                         <tr>                                                                                                                                                                                        <td>
                                                                                             <input type="text" value="" name="as_q" id="as_q" size="25" dir="ltr" className="with-auto-dir-text text-align:left border border-black" />
@@ -101,7 +101,7 @@ const index = () => {
                                             </div>
 
                                             <div>
-                                                <table cellspacing='0' cellpadding='6' border='0' width='100%'>
+                                                <table cellpadding='6' border='0' width='100%'>
                                                     <tr>
                                                         <td nowrap bgcolor='#3b7e20'>
                                                             <font face='Tahoma' color='#000000' size='+1'>
@@ -125,11 +125,11 @@ const index = () => {
                                                 </table>
 
 
-                                                <table bgcolor="#cbdced" className="text-gray-700" cellspacing="0" cellpadding="3" width="100%">
+                                                <table bgcolor="#cbdced" className="text-gray-700" cellpadding="3" width="100%">
                                                     <tbody>
                                                         <tr bgcolor="#cbdced">
                                                             <td>
-                                                                <table width="100%" cellspacing="0" cellpadding="5" border="10">
+                                                                <table width="100%" cellpadding="5" border="10">
                                                                     <tbody>
                                                                         <tr bgcolor="#cbdced">
                                                                             <td valign="top" width="15%">
@@ -141,7 +141,7 @@ const index = () => {
                                                                                 </font>
                                                                             </td>
                                                                             <td colspan="2">
-                                                                                <table width="100%" cellpadding="2" cellspacing="0">
+                                                                                <table width="100%" cellpadding="2">
                                                                                     <tbody>
                                                                                         <tr>
                                                                                             <td>
