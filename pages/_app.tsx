@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import '../styles/globals.css';
 import '../styles/buscardor.css'
 import type { AppProps } from 'next/app';
